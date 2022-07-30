@@ -19,7 +19,8 @@ public class EmployeeList {
         empList.add(employeeObject4);
         empList.add(employeeObject5);
 
-        System.out.println(" The Employee whose salary is the highest is :"  + Employee.getHighestPaidEmp(empList));    }
+        System.out.println(" The Employee whose salary is the highest is :" + Employee.getHighestPaidEmp(empList));
+    }
 
 
 }

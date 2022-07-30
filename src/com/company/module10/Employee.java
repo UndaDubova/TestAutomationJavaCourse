@@ -47,7 +47,7 @@ public class Employee extends Person {
         this.salary = salary;
     }
 
-    public static String getHighestPaidEmp(List<Employee> empList){
+    public static String getHighestPaidEmp(List<Employee> empList) {
         Employee temp = empList.get(0);
         double salary = temp.getSalary();
         String tempJob = temp.getJobTitle();
@@ -63,10 +63,11 @@ public class Employee extends Person {
         }
         return tempJob;
     }
-@Override
-    public void introduce(){
-    System.out.println("My name is " + name + " and i am " + age + " years old\n" +
-            "\t   I work as " + jobTitle+ " in "  +company + " and my salary is " + salary );
+
+    @Override
+    public void introduce() {
+        System.out.println("My name is " + name + " and i am " + age + " years old\n" +
+                "\t   I work as " + jobTitle + " in " + company + " and my salary is " + salary);
     }
 
 

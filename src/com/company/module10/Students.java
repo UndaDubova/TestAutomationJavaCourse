@@ -1,6 +1,6 @@
 package com.company.module10;
 
-public class Students extends Person{
+public class Students extends Person {
     String schoolName;
 
     public Students() {
@@ -22,8 +22,9 @@ public class Students extends Person{
     public void setSchoolName(String schoolName) {
         this.schoolName = schoolName;
     }
+
     @Override
-    public void introduce(){
-        System.out.println("I am a student in an university: " + schoolName );
+    public void introduce() {
+        System.out.println("I am a student in an university: " + schoolName);
     }
 }
